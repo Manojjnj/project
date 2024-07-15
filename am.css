@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar{
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 55px;
+    width: 150px;
+}
+.logo{
+    background-image: url("color.jpg");
+    background-size: cover;
+    height: 55px;
+    width: 150px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/**box 2**/
+
+.ad-first{
+    color: aliceblue;
+    font-size: 1rem;
+    margin-left: 50px;
+}
+.ad-second{
+    color: antiquewhite;
+    margin-left: 15px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+    margin-left: 29px;
+}
+/** box**/
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: brown;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    font-size: 1rem;
+}
+.navberinput{
+    width: 100%;
+    font-size: 1rem;
+}
+.icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(152, 124, 30);
+}
+.sp{
+    font-size: 0.50;
+}
+.list{
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+.return{
+    font-size: 0.59;
+
+}
+.order{
+    font-size: 0.75;
+    font-weight: 700;
+}
+
+.navcart i{
+    font-size: 35Spx;
+}
+.navcart{
+    font-weight: 600;
+}
+.panel{
+    height: 40px;
+    background-color: #222f22;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panall{
+    font-weight: 650;
+}
+.op p{
+    display: inline;
+    margin-left: 25px;
+    
+}
+.op{
+    width: 65%;
+}
+.sal{
+    background-image: url("SWM_400x39_NP._CB570056770_.jpg");
+    height: 40px;
+    width: 500px;
+}
+.up{
+    background-image: url("upper.jpg");
+    height: 700px;
+    background-size: cover;
+}
+
+/**sho**/
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+.box{
+  /**  border: 2px solid black;**/
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    margin-top: 5px;
+}
+.box1-image{
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.box2-image{
+    height: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box-h2{
+    font-weight: 500;
+}
+.box3-image{
+    height: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.box4-image{
+    height: 360px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box:hover{
+    border: 2px solid black
+}
+.box5-image{
+    height: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box6-image{
+    height: 350px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.box7-image{
+    height: 260px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.box8-image{
+    height: 260px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.box7{
+    margin-top: 20px;
+}
+.box8{
+    margin-top: 20px;
+
+}
+.box6{
+    margin-top: 20px;
+}
+.box5{
+    margin-top: 20px;
+}
+.fot{
+    background-color: #374753;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.footer{
+    height: 500px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+    margin-top: 25px;
+}
+p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.footer2{
+    background-color: #374753;
+    border-top: 0.5px solid white;
+    height: 70px;
+
+}
+.footlogo{
+    height: 45px;
+    width: 100px;
+    
+}
+
+
+
